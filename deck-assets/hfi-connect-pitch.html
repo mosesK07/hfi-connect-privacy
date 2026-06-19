@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HFI Connect — Pitch Deck</title>
+<style>
+  :root{
+    --bg:#0A0A0B; --ink:#F5F3F0; --muted:#8C8C90; --dim:#6A6A6E;
+    --orange:#ED7A2A; --amber:#F6A94C; --line:rgba(255,255,255,.12);
+    --cardA:#191A1D; --cardB:#0C0C0E;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Helvetica Neue','Inter','Segoe UI',Arial,sans-serif;}
+  .page{width:1280px;height:720px;position:relative;overflow:hidden;background:var(--bg);color:var(--ink);}
+  /* header bar */
+  .lg{position:absolute;left:54px;top:40px;}
+  .lg img{width:30px;height:30px;border-radius:7px;vertical-align:middle;}
+  .lg span{color:#fff;font-weight:700;letter-spacing:1px;margin-left:10px;font-size:18px;vertical-align:middle;}
+  .pg{position:absolute;left:0;right:0;top:46px;text-align:center;color:var(--dim);font-size:15px;letter-spacing:3px;}
+  .sec{position:absolute;right:54px;top:46px;color:#CFCFD2;font-size:15px;letter-spacing:3px;text-transform:uppercase;}
+  .hr{position:absolute;left:54px;right:54px;top:90px;height:1px;background:var(--line);}
+  h1{font-size:92px;font-weight:800;line-height:.98;letter-spacing:-2px;}
+  h2{font-size:52px;font-weight:800;line-height:1.04;letter-spacing:-1px;}
+  .sub{font-size:26px;color:var(--muted);font-weight:400;line-height:1.4;}
+  .lead{font-size:24px;color:var(--muted);line-height:1.55;font-weight:400;}
+  .pgno{position:absolute;left:0;right:0;bottom:34px;text-align:center;color:var(--dim);font-size:14px;letter-spacing:2px;}
+  /* dark cards */
+  .card{position:absolute;background:linear-gradient(180deg,var(--cardA) 0%,var(--cardB) 100%);border:1px solid var(--line);border-radius:18px;padding:30px 30px;}
+  .card h3{font-size:23px;font-weight:700;color:var(--orange);margin-bottom:6px;}
+  .card .div{height:1px;background:var(--line);margin:14px 0;}
+  .card p{font-size:17px;color:var(--muted);line-height:1.45;}
+  .ic{font-size:30px;margin-bottom:14px;display:block;}
+  .chip{display:inline-block;margin:8px 8px 0 0;padding:9px 20px;border-radius:30px;background:rgba(237,122,42,.12);border:1px solid rgba(237,122,42,.4);font-size:20px;font-weight:600;color:var(--amber);}
+  /* device mockups */
+  .iphone{position:absolute;padding:11px;border-radius:54px;background:linear-gradient(150deg,#e9e9ec 0%,#9a9aa0 34%,#45454a 70%,#7a7a80 100%);box-shadow:0 30px 80px rgba(0,0,0,.6);}
+  .iphone>img{display:block;width:100%;height:100%;object-fit:cover;border-radius:43px;}
+  .iphone .island{position:absolute;background:#000;border-radius:16px;z-index:2;}
+  .s25{position:absolute;padding:8px;border-radius:38px;background:linear-gradient(150deg,#5c5c63 0%,#1e1e21 46%,#46464b 100%);box-shadow:0 30px 80px rgba(0,0,0,.6);}
+  .s25>img{display:block;width:100%;height:100%;object-fit:cover;border-radius:30px;}
+  .s25 .hole{position:absolute;background:#000;border-radius:50%;width:13px;height:13px;z-index:2;}
+  .devtag{position:absolute;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:var(--dim);font-weight:600;}
+  .stat{font-size:30px;font-weight:800;}
+</style>
+</head>
+<body>
+
+<!-- 1. TITLE (hero gradient) -->
+<div class="page" data-document-role="page" data-label="Title"
+  data-speaker-notes="Every church has a heartbeat — people who want to stay close to God and to each other. We built HFI Connect: one beautiful app that brings your entire community into a single home, on every device."
+  style="background:linear-gradient(150deg,#0A0A0B 0%,#2a1408 28%,#a64e12 58%,#ED7A2A 80%,#F6B860 100%);">
+  <div style="position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,rgba(0,0,0,.05) 0 1px,transparent 1px 26px),repeating-linear-gradient(90deg,rgba(0,0,0,.05) 0 1px,transparent 1px 26px);opacity:.6;"></div>
+  <div class="lg"><img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/app-icon.png"><span>HFI CONNECT</span></div>
+  <div class="sec">Pitch Deck</div>
+  <div style="position:absolute;left:54px;top:230px;max-width:560px;">
+    <p style="font-size:24px;color:rgba(255,255,255,.92);line-height:1.45;">A digital home for your whole church — feed, prayer, sermons, the Bible and the people you love, together in one place.</p>
+  </div>
+  <h1 style="position:absolute;left:50px;bottom:90px;color:#fff;">HFI CONNECT<br>PITCH DECK</h1>
+</div>
+
+<!-- 2. ABOUT -->
+<div class="page" data-document-role="page" data-label="About"
+  data-speaker-notes="HFI Connect is the all-in-one app that brings a ministry's entire community into one beautiful home — on iPhone, Android and the web.">
+  <div class="lg"><img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/app-icon.png"><span>HFI CONNECT</span></div>
+  <div class="pg">01</div><div class="sec">About</div><div class="hr"></div>
+  <div style="position:absolute;left:140px;right:140px;top:230px;text-align:center;">
+    <p style="font-size:38px;font-weight:500;line-height:1.5;"><span style="color:var(--orange);font-weight:700;">HFI Connect</span> is the all-in-one app that brings a ministry's entire community into one beautiful home. Announcements, events, prayer, sermons, the Bible and the people you love — together, on iPhone, Android and the web.</p>
+  </div>
+  <div style="position:absolute;left:0;right:0;bottom:30px;text-align:center;font-size:150px;font-weight:800;color:rgba(255,255,255,.04);letter-spacing:-3px;">connect</div>
+</div>
+
+<!-- 3. PROBLEM -->
+<div class="page" data-document-role="page" data-label="The Challenge"
+  data-speaker-notes="Today a church lives in a dozen places — a noisy WhatsApp group, scattered sermon links, events half the congregation forgets. Things get lost, and leaders burn hours keeping everyone informed.">
+  <div class="lg"><img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/app-icon.png"><span>HFI CONNECT</span></div>
+  <div class="pg">02</div><div class="sec">The Challenge</div><div class="hr"></div>
+  <div style="position:absolute;left:0;right:0;top:150px;text-align:center;">
+    <h2>A Scattered Community</h2>
+    <p class="sub" style="margin-top:14px;">What keeps a congregation from staying truly connected.</p>
+  </div>
+  <div class="card" style="left:90px;top:360px;width:340px;height:280px;"><span class="ic">💬</span><h3>Lost in the Noise</h3><div class="div"></div><p>Announcements buried under hundreds of unread WhatsApp messages.</p></div>
+  <div class="card" style="left:470px;top:360px;width:340px;height:280px;"><span class="ic">📅</span><h3>Missed Moments</h3><div class="div"></div><p>Events forgotten and sermons scattered across random links.</p></div>
+  <div class="card" style="left:850px;top:360px;width:340px;height:280px;"><span class="ic">🙏</span><h3>No Shared Home</h3><div class="div"></div><p>Nowhere central for prayer, the directory, or community life.</p></div>
+  <div class="pgno">02</div>
+</div>
+
+<!-- 4. SOLUTION -->
+<div class="page" data-document-role="page" data-label="Our Solution"
+  data-speaker-notes="HFI Connect pulls it all together — feed, events, prayer, sermons and the Bible — into one place, native on iOS and Android plus a full website.">
+  <div class="lg"><img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/app-icon.png"><span>HFI CONNECT</span></div>
+  <div class="pg">03</div><div class="sec">Our Solution</div><div class="hr"></div>
+  <div style="position:absolute;left:90px;top:200px;max-width:420px;">
+    <h2>One App,<br>Every Device</h2>
+    <p class="lead" style="margin-top:24px;">Everything your community needs, beautifully unified — and shaped around your ministry's identity.</p>
+  </div>
+  <div class="card" style="left:660px;top:178px;width:255px;height:175px;"><span class="ic" style="color:var(--orange);">📰</span><h3 style="color:#fff;font-size:20px;">Feed &amp; Announcements</h3><div class="div"></div><p>Everyone informed, in real time.</p></div>
+  <div class="card" style="left:935px;top:178px;width:255px;height:175px;"><span class="ic" style="color:var(--orange);">🙏</span><h3 style="color:#fff;font-size:20px;">Prayer Wall</h3><div class="div"></div><p>Pray for one another, together.</p></div>
+  <div class="card" style="left:660px;top:368px;width:255px;height:175px;"><span class="ic" style="color:var(--orange);">🎬</span><h3 style="color:#fff;font-size:20px;">Sermons &amp; Video</h3><div class="div"></div><p>A library plus short clips.</p></div>
+  <div class="card" style="left:935px;top:368px;width:255px;height:175px;"><span class="ic" style="color:var(--orange);">📖</span><h3 style="color:#fff;font-size:20px;">Bible &amp; Daily Verse</h3><div class="div"></div><p>Scripture, in 5 languages.</p></div>
+  <div class="pgno">03</div>
+</div>
+
+<!-- 5. FEATURES -->
+<div class="page" data-document-role="page" data-label="Product Features"
+  data-speaker-notes="Beyond the feed, HFI Connect is full of community life — prayer, sermons, the Bible in five languages, events with reminders, and a family directory.">
+  <div class="lg"><img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/app-icon.png"><span>HFI CONNECT</span></div>
+  <div class="pg">04</div><div class="sec">Product Features</div><div class="hr"></div>
+  <h2 style="position:absolute;left:90px;top:160px;max-width:760px;">Everything your<br>church needs.</h2>
+  <div class="card" style="left:90px;top:330px;width:345px;height:150px;"><h3>Living Home Feed</h3><p>Verse of the day, events, celebrations — react &amp; comment.</p></div>
+  <div class="card" style="left:467px;top:330px;width:345px;height:150px;"><h3>Prayer Wall</h3><p>Members post; the community prays. Leader-approved.</p></div>
+  <div class="card" style="left:844px;top:330px;width:345px;height:150px;"><h3>Sermons &amp; Shorts</h3><p>Full video library plus short vertical clips.</p></div>
+  <div class="card" style="left:90px;top:500px;width:345px;height:150px;"><h3>Bible · 5 Languages</h3><p>Read in English, Kannada, Tamil, Malayalam, Hindi.</p></div>
+  <div class="card" style="left:467px;top:500px;width:345px;height:150px;"><h3>Events &amp; Planner</h3><p>Beautiful events, reminders, leadership planner.</p></div>
+  <div class="card" style="left:844px;top:500px;width:345px;height:150px;"><h3>Family &amp; Directory</h3><p>A searchable directory and a visual family tree.</p></div>
+  <div class="pgno">04</div>
+</div>
+
+<!-- 6. APP SHOWCASE (devices) -->
+<div class="page" data-document-role="page" data-label="The App"
+  data-speaker-notes="And it's genuinely beautiful in their hands — a warm home feed, the Bible in their language, premium and modern, on both iPhone and Android.">
+  <div class="lg"><img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/app-icon.png"><span>HFI CONNECT</span></div>
+  <div class="pg">05</div><div class="sec">The App</div><div class="hr"></div>
+  <div style="position:absolute;left:90px;top:230px;max-width:430px;">
+    <h2>Beautiful in<br>their hands.</h2>
+    <p class="lead" style="margin-top:22px;">Premium, fast and familiar — the same polished app on iPhone and Android.</p>
+    <div style="margin-top:14px;"><span class="chip">📱 iOS</span><span class="chip">🤖 Android</span></div>
+  </div>
+  <div class="iphone" style="left:640px;top:120px;width:255px;height:552px;">
+    <img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/03.png">
+    <div class="island" style="top:22px;left:88px;width:80px;height:24px;"></div>
+  </div>
+  <div class="devtag" style="left:680px;top:680px;">iPhone 17 Pro Max</div>
+  <div class="s25" style="left:920px;top:128px;width:252px;height:544px;">
+    <img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/09.png">
+    <div class="hole" style="top:15px;left:119px;"></div>
+  </div>
+  <div class="devtag" style="left:968px;top:680px;">Galaxy S25 Ultra</div>
+  <div class="pgno">05</div>
+</div>
+
+<!-- 7. LANGUAGES (stacked words) -->
+<div class="page" data-document-role="page" data-label="Languages"
+  data-speaker-notes="This is close to our heart — the daily verse and Scripture appear in five languages, so every member reads in the language they love.">
+  <div class="lg"><img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/app-icon.png"><span>HFI CONNECT</span></div>
+  <div class="pg">06</div><div class="sec">Heart Language</div><div class="hr"></div>
+  <div style="position:absolute;left:0;right:0;top:150px;text-align:center;">
+    <h2 style="font-size:40px;">Scripture in Every Heart Language</h2>
+  </div>
+  <div style="position:absolute;left:0;right:0;top:250px;text-align:center;line-height:1.12;font-weight:800;letter-spacing:-1px;">
+    <div style="font-size:62px;color:#fff;">English</div>
+    <div style="font-size:62px;color:var(--orange);">ಕನ್ನಡ · Kannada</div>
+    <div style="font-size:62px;color:#9a9a9a;">தமிழ் · Tamil</div>
+    <div style="font-size:62px;color:#fff;">മലയാളം · Malayalam</div>
+    <div style="font-size:62px;color:var(--amber);">हिन्दी · Hindi</div>
+  </div>
+  <p class="sub" style="position:absolute;left:0;right:0;bottom:48px;text-align:center;">The daily verse and full Bible — plus a home-screen widget.</p>
+</div>
+
+<!-- 8. LIVE TODAY (stats) -->
+<div class="page" data-document-role="page" data-label="Live Today"
+  data-speaker-notes="This isn't a concept — it's live right now on the App Store, Google Play and the web, multi-language, and we ship improvements instantly over the air.">
+  <div class="lg"><img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/app-icon.png"><span>HFI CONNECT</span></div>
+  <div class="pg">07</div><div class="sec">Live Today</div><div class="hr"></div>
+  <div style="position:absolute;left:90px;top:185px;">
+    <h2>Already in their hands.</h2>
+    <p class="sub" style="margin-top:14px;">On the App Store, Google Play and the web.</p>
+  </div>
+  <div style="position:absolute;left:90px;top:400px;">
+    <span style="font-size:130px;font-weight:800;color:#fff;letter-spacing:-3px;">3</span>
+    <div class="stat" style="display:inline-block;color:var(--orange);margin-left:14px;vertical-align:middle;">Platforms<br><span style="font-size:18px;color:var(--muted);font-weight:400;">iOS · Android · Web</span></div>
+  </div>
+  <div style="position:absolute;left:560px;top:400px;">
+    <span style="font-size:130px;font-weight:800;color:#fff;letter-spacing:-3px;">5</span>
+    <div class="stat" style="display:inline-block;color:var(--orange);margin-left:14px;vertical-align:middle;">Languages<br><span style="font-size:18px;color:var(--muted);font-weight:400;">read in your own</span></div>
+  </div>
+  <div style="position:absolute;left:1000px;top:400px;">
+    <span style="font-size:96px;font-weight:800;color:var(--amber);letter-spacing:-2px;">OTA</span>
+    <div style="font-size:18px;color:var(--muted);margin-top:6px;">instant updates,<br>no reinstall</div>
+  </div>
+  <div class="pgno">07</div>
+</div>
+
+<!-- 9. FOR LEADERS (device) -->
+<div class="page" data-document-role="page" data-label="For Leaders"
+  data-speaker-notes="For leaders this is the magic — post an event, announcement, sermon or reminder in a tap, and one button notifies everyone. You manage it all from a polished web dashboard too.">
+  <div class="lg"><img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/app-icon.png"><span>HFI CONNECT</span></div>
+  <div class="pg">08</div><div class="sec">For Leaders</div><div class="hr"></div>
+  <div style="position:absolute;left:90px;top:200px;max-width:560px;">
+    <h2>Run it all<br>in a tap.</h2>
+    <div style="margin-top:30px;">
+      <p style="font-size:24px;margin:16px 0;"><span style="color:var(--orange);font-weight:700;">·</span>&nbsp; Post events, announcements, sermons &amp; reminders instantly</p>
+      <p style="font-size:24px;margin:16px 0;"><span style="color:var(--orange);font-weight:700;">·</span>&nbsp; One button pushes a notification to everyone</p>
+      <p style="font-size:24px;margin:16px 0;"><span style="color:var(--orange);font-weight:700;">·</span>&nbsp; A polished web dashboard for the whole community</p>
+    </div>
+  </div>
+  <div class="iphone" style="left:872px;top:60px;width:288px;height:600px;">
+    <img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/06.png">
+    <div class="island" style="top:25px;left:96px;width:92px;height:27px;"></div>
+  </div>
+  <div class="pgno">08</div>
+</div>
+
+<!-- 10. TRUST -->
+<div class="page" data-document-role="page" data-label="Trust"
+  data-speaker-notes="Because it's your church, safety isn't optional. New members and posts are approved by a leader first; members can block or report; and we meet Apple's strict privacy standards.">
+  <div class="lg"><img src="https://raw.githubusercontent.com/mosesK07/hfi-connect-privacy/main/deck-assets/app-icon.png"><span>HFI CONNECT</span></div>
+  <div class="pg">09</div><div class="sec">Safe &amp; Trusted</div><div class="hr"></div>
+  <h2 style="position:absolute;left:90px;top:160px;max-width:900px;">A protected space<br>for your people.</h2>
+  <div class="card" style="left:90px;top:360px;width:345px;height:250px;"><span class="ic">✅</span><h3 style="color:#fff;">Leader-Approved</h3><div class="div"></div><p>New members and posts are reviewed before they ever appear.</p></div>
+  <div class="card" style="left:467px;top:360px;width:345px;height:250px;"><span class="ic">🛡️</span><h3 style="color:#fff;">Respectful</h3><div class="div"></div><p>Block and report tools keep the community safe and kind.</p></div>
+  <div class="card" style="left:844px;top:360px;width:345px;height:250px;"><span class="ic">🔒</span><h3 style="color:#fff;">Private</h3><div class="div"></div><p>Full account control and privacy, meeting Apple's standards.</p></div>
+  <div class="pgno">09</div>
+</div>
+
+<!-- 11. CLOSING (hero gradient) -->
+<div class="page" data-document-role="page" data-label="Closing"
+  data-speaker-notes="HFI Connect is a digital home that brings your people closer — to God and to each other. We'd love to bring it to your church. Let's connect."
+  style="background:linear-gradient(150deg,#0A0A0B 0%,#2a1408 28%,#a64e12 58%,#ED7A2A 80%,#F6B860 100%);">
+  <div style="position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,rgba(0,0,0,.05) 0 1px,transparent 1px 26px),repeating-linear-gradient(90deg,rgba(0,0,0,.05) 0 1px,transparent 1px 26px);opacity:.6;"></div>
+  <div style="position:absolute;left:0;right:0;top:215px;text-align:center;">
+    <p style="font-size:24px;color:rgba(255,255,255,.9);letter-spacing:1px;">Let's bring your church together</p>
+    <h1 style="font-size:74px;margin-top:24px;color:#fff;">Bring HFI Connect<br>to your church.</h1>
+    <p style="margin-top:40px;font-size:24px;color:#fff;font-weight:600;">connect.holyfireministriesindia.com</p>
+  </div>
+</div>
+
+</body>
+</html>
